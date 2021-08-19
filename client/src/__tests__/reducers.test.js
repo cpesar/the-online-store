@@ -1,10 +1,11 @@
 import { reducer } from '../utils/reducers';
 
+
 // original state
 const state = {
   name: 'Lernantino',
   email: 'lernantino@gmail.com' 
-}
+};
 
 // create a new version of state by making a copy of the original state's data and updating only the part that has changed
 const updatedState = {...state, email: 'lernantino99@gmail.com'};
@@ -25,6 +26,7 @@ const initialState = {
 };
 
 
+
 test('UPDATE_PRODUCTS', () => {
   let newState = reducer(initialState, {
     type: UPDATE_PRODUCTS,
@@ -34,7 +36,6 @@ test('UPDATE_PRODUCTS', () => {
   expect(newState.products.length).toBe(2);
   expect(initialState.products.length).toBe(0);
 });
-
 
 test('UPDATE_CATEGORIES', () => {
   let newState = reducer(initialState, {
@@ -56,3 +57,4 @@ test('UPDATE_CURRENT_CATEGORY', () => {
   expect(newState.currentCategory).toBe('2');
   expect(initialState.currentCategory).toBe('1');
 });
+

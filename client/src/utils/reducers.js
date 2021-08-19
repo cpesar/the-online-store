@@ -24,12 +24,12 @@ export const reducer = (state, action) => {
     default:
       return state;
 
-  case UPDATE_CURRENT_CATEGORY:
-  return {
-    ...state,
-    currentCategory: action.currentCategory
-  };
-}
+    case UPDATE_CURRENT_CATEGORY:
+      return {
+      ...state,
+      currentCategory: action.currentCategory
+    };
+  }
 };
 
 export function useProductReducer(initialState) {
