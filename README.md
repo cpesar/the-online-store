@@ -21,7 +21,7 @@
   
 
   ## :wrench: Installation
-  <a name="installation">Clone the repo to your local machine. Navigate to the root of the project and run, ``npm i`` to install all dependencies. To start the app in the development environment run, ``npm run develop`` from the terminal/command-line. </a>
+  <a name="installation">Clone the repo to your local machine. Navigate to the root of the project and run, ``npm i`` to install all dependencies. To seed the database, navigate to the server folder and run, ``npm run seed``. To start the app in the development environment run, ``npm run develop`` from the terminal/command-line. </a>
   <br />
   
 
