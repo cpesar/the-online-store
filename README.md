@@ -6,6 +6,8 @@
   ## Description
   The project followed Module 22, where we created an online store using React's Context API. The original code was re factored using Redux so that the website's original state management was taken out of the React ecosystem.
   <br />
+  <br />
+  <br />
   [The Online Store](https://the-online-store.herokuapp.com/)
   
   
